@@ -135,6 +135,10 @@ export class AbstractWallet {
     return 0;
   }
 
+  setTransactionFee() {
+    return 0;
+  }
+
   // createTx () { throw Error('not implemented') }
 
   getAddress() {
